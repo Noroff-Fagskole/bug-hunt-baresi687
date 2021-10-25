@@ -90,7 +90,8 @@ a:active {
   line-height: var(--header-height);
 }
 
-.mobile-nav, label[for='mobile-nav'] {
+.mobile-nav,
+label[for='mobile-nav'] {
   position: absolute;
   top: 0;
   right: 0;
@@ -103,14 +104,14 @@ a:active {
 
 .mobile-nav:checked ~ .main-nav {
   transition: all 0.2s linear;
-  transform:  translateY(0px);
+  transform: translateY(0px);
 }
 
 .fas.fa-bars {
   position: absolute;
   top: 8px;
   right: 8px;
-  color: #FFF;
+  color: #fff;
   font-size: 1.5em;
   z-index: 1;
 }
@@ -248,7 +249,7 @@ button:focus {
 .the-date {
   font-size: 1.375rem !important;
   float: right;
-  color: var(--text-color-light);
+  color: black;
   font-weight: 300 !important;
 }
 
@@ -479,7 +480,9 @@ button:focus {
     flex-direction: row;
   }
 
-  .fas, label[for='mobile-nav'], .mobile-nav {
+  .fas,
+  label[for='mobile-nav'],
+  .mobile-nav {
     display: none;
   }
 
