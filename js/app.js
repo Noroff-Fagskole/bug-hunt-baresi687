@@ -6,7 +6,7 @@
 
 const API_KEY = 'efa4931caaaf49bc8726a0ef8cdd2c20';
 // ABC-News, Al-Jazeera-English, ars-technica, associated-press, axios, bleacher-report, bloomberg, breitbart-news, business-insider, buzzfeed, cbs-news, cnn, crypto-coins-news, engadget, entertainment-weekly, espn, fortune, fox-news, fox-sports, google-news, hacker-news, ign, mashable, medical-news-today, msnbc, mtv-news, national-geographic
-const sources = 'bbc-sport,bleacher-report,espn';
+const source = 'bbc-sport,bleacher-report,espn';
 const category = 'sports'; // business, entertainment, general, health, science, sports, technology
 
 const heroBannerContent = document.querySelector('.jsHeroBannerContent');
